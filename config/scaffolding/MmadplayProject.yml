@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MmadplayProject
+  gitServerName: mmadplay
+  gitUrl: https://github.com/madhumadineni/MmadplayProject
+  gitUsername: madhumadineni
+  gitBranch: main
