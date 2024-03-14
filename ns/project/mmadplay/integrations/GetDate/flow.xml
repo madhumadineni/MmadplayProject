@@ -87,12 +87,6 @@
   <!-- nodes -->
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/pattern;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">dd-MMM-yyyy</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -104,6 +98,10 @@
 </MAPCOPY>
 </MAP>
 </MAPINVOKE>
+</MAP>
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
 </MAP>
 </SEQUENCE>
 
