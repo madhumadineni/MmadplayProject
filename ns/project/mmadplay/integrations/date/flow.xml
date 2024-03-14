@@ -275,6 +275,6 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="ESBTest" SERVICE="ESBTest.services:testflow">
+<INVOKE NAME="ESBTest" SERVICE="ESBTest.services:testflow" DISABLED="true">
 </INVOKE>
 </FLOW>
