@@ -17,7 +17,31 @@ services:
   packages:
   - name: MmadplayProject
     version: "1.0"
+  - name: ESBTest
+    version: "1.0"
 - serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: ESBTest.services:testflow
+  packages:
+  - name: ESBTest
+    version: "1.0"
+- serviceName: pub.json:jsonStringToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
+- serviceName: KBLog4j2.javaservices:logIData
+  packages:
+  - name: MmadplayProject
+    version: "1.0"
+  - name: ESBTest
+    version: "1.0"
+- serviceName: pub.date:calculateDateDifference
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
