@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/madhumadineni/MmadplayProject
   gitUsername: madhumadineni
   gitBranch: main
+services:
+- serviceName: project.mmadplay.integrations:GetDate
+  packages:
+  - name: MmadplayProject
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741
