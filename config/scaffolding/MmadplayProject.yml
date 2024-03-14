@@ -51,3 +51,13 @@ services:
     version: "1.0"
   - name: ESBTest
     version: "1.0"
+- serviceName: project.mmadplay.integrations:date
+  packages:
+  - name: MmadplayProject
+    version: "1.0"
+  - name: ESBTest
+    version: "1.0"
+- serviceName: pub.date:dateTimeBuild
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.741

@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">mmad</value>
-    <value name="createdDate">1710404627974</value>
-    <value name="lastModifiedDate">1710404627974</value>
+    <value name="lastModifiedBy">mmad</value>
+    <value name="lastModifiedDate">1710404661567</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
       <value name="group">default</value>
@@ -74,6 +73,25 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">ESBTest</value>
+          <value name="groupName">ESBTest;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="allowCustomOperations">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">ESBTest.services:testflow</value>
+          <value name="serviceName">ESBTest.services:testflow</value>
+          <value name="displayName">testflow</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
