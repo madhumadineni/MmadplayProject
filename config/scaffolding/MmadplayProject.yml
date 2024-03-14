@@ -45,3 +45,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.741
+- serviceName: project.mmadplay.integrations:testq
+  packages:
+  - name: MmadplayProject
+    version: "1.0"
+  - name: ESBTest
+    version: "1.0"
