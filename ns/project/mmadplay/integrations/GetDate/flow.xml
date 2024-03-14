@@ -110,8 +110,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
-  <COMMENT></COMMENT>
-</SEQUENCE>
+<INVOKE NAME="ESBTest" SERVICE="ESBTest.services:testflow">
+</INVOKE>
 </SEQUENCE>
 </FLOW>
