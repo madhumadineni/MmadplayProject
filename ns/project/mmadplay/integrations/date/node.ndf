@@ -46,11 +46,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mmad</value>
-    <value name="lastModifiedDate">1710481661531</value>
+    <value name="lastModifiedDate">1710934703768</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">a879cd411ad14a7c85135bebd33ad653</value>
+      <value name="id">a967902b0db84759992911dc2b136cd1</value>
       <value name="group">default</value>
-      <value name="name">mmad_edge</value>
+      <value name="name">mmad_play1</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">date</value>
@@ -114,6 +114,7 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <number name="index" type="Long">0</number>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
       </record>
     </record>
   </record>
