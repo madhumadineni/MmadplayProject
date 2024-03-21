@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mmad</value>
-    <value name="lastModifiedDate">1710934996023</value>
+    <value name="lastModifiedDate">1711016247139</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">a967902b0db84759992911dc2b136cd1</value>
       <value name="group">default</value>
