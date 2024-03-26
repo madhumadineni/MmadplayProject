@@ -288,8 +288,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<INVOKE NAME="Invoke predefined:com.wm.adapter.wmjdbc.JDBCAdapter" TIMEOUT="" SERVICE="project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.:" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
