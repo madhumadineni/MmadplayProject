@@ -46,13 +46,14 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mmad</value>
-    <value name="lastModifiedDate">1711019178165</value>
+    <value name="lastModifiedDate">1711443878884</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
+      <value name="group">default</value>
+      <value name="name">Cloud Runtime</value>
+      <value name="executionPlaneType">cloud</value>
     </record>
-    <value name="displayName">date</value>
+    <value name="displayName">date1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
@@ -73,47 +74,6 @@
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">PACKAGES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">ESBTest</value>
-          <value name="groupName">ESBTest;1.0</value>
-          <null name="services"/>
-        </record>
-        <Boolean name="allowCustomOperations">true</Boolean>
-        <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ESBTest.services:testflow</value>
-          <value name="serviceName">ESBTest.services:testflow</value>
-          <value name="displayName">testflow</value>
-        </record>
-        <null name="outputMapSet"/>
-        <null name="mapSet"/>
-        <number name="ui_step_index" type="Long">2</number>
-        <number name="nodeIndex" type="Long">1</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-      </record>
-      <record name="/2" javaclass="com.wm.util.Values">
-        <value name="itemType">APPS</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-        <value name="name">Database</value>
-        <value name="providerName">WmJDBCAdapter</value>
-        <null name="operation"/>
-        <value name="appType">predefined</value>
-        <Boolean name="hasAccount">true</Boolean>
-        <Boolean name="allowCustomOperations">true</Boolean>
-        <value name="allowDeleteApplication">false</value>
-        <value name="allowUpdateApplication">false</value>
-        <null name="certified"/>
-        <Boolean name="deprecated">false</Boolean>
-        <value name="description">Database Application enables you to perform database operation</value>
-        <null name="icon"/>
-        <value name="packageName">WmJDBCAdapter</value>
-        <value name="type">Adapters</value>
-        <value name="version">1.0</value>
-        <number name="index" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">false</Boolean>
       </record>
     </record>
   </record>
