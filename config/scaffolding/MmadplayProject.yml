@@ -76,6 +76,12 @@ services:
     version: "1.0"
   - name: ESBTest
     version: "1.0"
+- serviceName: project.mmadplay.integrations:date2
+  packages:
+  - name: MmadplayProject
+    version: "1.0"
+  - name: ESBTest
+    version: "1.0"
 configurationVariables:
   ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.otherProperties
   : loginTimeout=60;

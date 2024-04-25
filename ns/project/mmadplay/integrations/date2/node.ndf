@@ -46,12 +46,12 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mmad</value>
-    <value name="lastModifiedDate">1711447168250</value>
+    <value name="lastModifiedDate">1714046990000</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8640d229dc0f441e9e35ffa53eec1f03</value>
+      <value name="id">a967902b0db84759992911dc2b136cd1</value>
       <value name="group">default</value>
-      <value name="name">Cloud Runtime</value>
-      <value name="executionPlaneType">cloud</value>
+      <value name="name">mmad_play1</value>
+      <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">date2</value>
     <value name="description"></value>
