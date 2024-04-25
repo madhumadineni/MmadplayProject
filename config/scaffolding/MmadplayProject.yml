@@ -111,10 +111,10 @@ configurationVariables:
   : ""
   ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.user
   : temp1
-  ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.datasourceClass
-  : com.wm.dd.jdbcx.oracle.OracleDataSource
   ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.dbType
   : ORACLE
+  ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.oracle.OracleDataSource
   ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.databaseName
   : ""
   ? artConnection.MmadplayProject.project.mmadplay.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_11.connectionSettings.portNumber
